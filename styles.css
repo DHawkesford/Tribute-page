@@ -1,1 +1,93 @@
 /* Copy and paste your CSS from CodePen into here */
+body{
+    background-image: url('https://i.ibb.co/WyY4Mm4/Background-original.jpg');
+    color: rgb(119,103,85);
+  }
+  
+  #tribute-info{
+    margin: 5px 20% 5px 20%;
+    background-image: linear-gradient(to right, rgb(244,238,234), rgb(247,242,236), rgb(234,230,220));
+    border: 2px solid rgb(79,87,108);
+    border-radius: 10px;
+  }
+  
+  #title{
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16pt;
+  }
+  
+  .quote{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-style: italic;
+  }
+  
+  p{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  #img-div{
+    margin: 10px 35% 5px 35%;
+    background-image: linear-gradient(to right, rgb(244,238,234), rgb(247,242,236), rgb(234,230,220));
+    border: 2px solid rgb(79,87,108);
+    border-radius: 10px;
+  }
+  
+  .marginalia{
+    display: block;
+    margin: 20px auto 5px auto;
+    max-width: 70%;
+    border: 2px solid rgb(79,87,108);
+    border-radius: 10px;
+  }
+  
+  #image{
+    display: block;
+    margin: 10px auto 5px auto;
+    max-width: 70%;
+    border: 2px solid rgb(79,87,108);
+    border-radius: 10px;
+  }
+  
+  #img-caption{
+    max-width: 100%;
+    margin: 5px auto 5px auto;
+    text-align: center;
+  }
+  
+  .marginalia-caption{
+    max-width: 100%;
+    margin: 5px auto 5px auto;
+    text-align: center; 
+  }
+  
+  #link-div{
+    width: 150px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(244,238,234), rgb(247,242,236), rgb(234,230,220));
+    border: 2px solid rgb(79,87,108);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .link{
+    transition: opacity 2s;
+  }
+  
+  .link:hover{
+    opacity: 30%;
+  }
+  
+  #image-link{
+    width: 100px;
+    margin: 5px auto 5px auto;
+    display: block;
+  }
+  
+  #tribute-link{
+     color: rgb(119,103,85);
+  }
